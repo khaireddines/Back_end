@@ -1,3 +1,15 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+owner:
+  type: rest
+  resource: App\Controller\OwnerController
+Accommodation:
+  type: rest
+  resource: App\Controller\AccommodationController
+CarRent:
+  type: rest
+  resource: App\Controller\CarRentController
+Taxi:
+  type: rest
+  resource: App\Controller\TaxiController
