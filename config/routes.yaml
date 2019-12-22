@@ -1,6 +1,9 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+api_login_check:
+  path: /api/login_check
+  methods:  [POST]
 owner:
   type: rest
   resource: App\Controller\OwnerController
@@ -13,3 +16,7 @@ CarRent:
 Taxi:
   type: rest
   resource: App\Controller\TaxiController
+User:
+  type: rest
+  resource: App\Controller\UserController
+
